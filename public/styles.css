@@ -6,7 +6,7 @@
 
 body {
     font-family: "Mulish", sans-serif;
-    color: #1e7b67;
+    color: #ff9f45;
     text-align: center;
     background-color: #ffffff;
     background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
@@ -20,7 +20,7 @@ h1 {
 /* Navbar Section */
 .navbar {
     padding: 1% 7%;
-    background-color: #1e7b67;
+    background-color: #D9534F;
     color: white;
 }
 
@@ -35,7 +35,7 @@ h1 {
 /* Praising Content Section  */
 #praising-content {
     line-height: 1.5;
-    color: #1e7b67;
+    color: #FF9F45;
     padding: 7% 7%;
     text-align: justify;
     text-align-last: center;
@@ -43,11 +43,13 @@ h1 {
 
 #praising-content h2 {
     font-size: 1.8rem;
+    color: #FC4F4F;
 }
 
 #praising-content h3 {
     font-size: 1.5rem;
     margin-top: 20px;
+
 }
 
 /* Slide Section */
@@ -86,7 +88,7 @@ h1 {
 
 .slide-content-bg .date {
     display: inline-block;
-    border: 2px solid #1e7b67;
+    border: 1px solid #FF9F45;
     border-radius: 5px;
     padding: 5px;
     -webkit-animation: glow 2s linear infinite;
@@ -97,23 +99,21 @@ h1 {
 /* Glowing Date Animation  */
 @keyframes glow {
     0% {
-        box-shadow: -5px -5px 5px #1e7b677a, 5px 5px 5px #1e7b67a8,
-            -5px 5px 5px #1e7b67a8, 5px -5px 5px #1e7b67a8;
+        border-width: 3px;
     }
 
     50% {
-        box-shadow: none;
+        border-width: 1px;
     }
 
     100% {
-        box-shadow: -5px -5px 5px #1e7b677a, 5px 5px 5px #1e7b67a8,
-            -5px 5px 5px #1e7b67a8, 5px -5px 5px #1e7b67a8;
+        border-width: 3px;
     }
 }
 
 /* Guest - Name Section */
 #guest {
-    background-color: #1e7b67;
+    background-color: #D9534F;
     text-align: center;
     line-height: 2;
     color: white;
@@ -132,7 +132,7 @@ h1 {
 
 #couple .title-quote {
     padding-bottom: 15px;
-    border-bottom: 2px solid #1e7b67;
+    border-bottom: 2px solid #D9534F;
 }
 
 #couple .row {
@@ -153,7 +153,7 @@ h1 {
 
 #couple .couple-img {
     width: 99.9%;
-    border: 2px solid #1e7b67;
+    border: 2px solid #D9534F;
     border-radius: 50%;
 }
 
@@ -212,10 +212,10 @@ h1 {
 }
 
 #timeline .left {
-    border-right: 1px solid #1e7b6786;
+    border-right: 1px solid #D9534F;
 }
 #timeline .right {
-    border-left: 1px solid #1e7b6786;
+    border-left: 1px solid #D9534F;
 }
 
 /* Count Down Section */
@@ -229,7 +229,7 @@ h1 {
 }
 
 #count-down .main {
-    background-color: #1e7b67;
+    background-color: #D9534F;
 }
 
 #count-down .col-lg-5,
@@ -243,7 +243,7 @@ h1 {
 }
 
 #count-down .title {
-    background-color: #1e7b6786;
+    background-color: #D9534F86;
     padding: 20px;
 }
 
@@ -254,11 +254,11 @@ h1 {
 }
 
 #count-down .title .content {
-    border: 2px solid hsla(0, 0%, 100%, 0.2);
+    border: 3px solid hsla(0, 0%, 100%, 0.2);
 }
 
 #count-down .clock {
-    background-color: #1e7b67;
+    background-color: #ff9f45;
 }
 
 #count-down .clock .content {
@@ -273,7 +273,7 @@ h1 {
 #count-down .clock li {
     display: inline-block;
     margin: 0px 20px;
-    border: 1px solid hsla(0, 0%, 100%, 0.2);
+    border: 2px solid hsla(0, 0%, 100%, 0.2);
     padding: 20px;
     line-height: 1;
 }
@@ -290,7 +290,7 @@ h1 {
 
 /* Invite-note */
 #invite-note {
-    background-color: #1e7b67;
+    background-color: #ff9f45;
     padding: 3% 7%;
     color: white;
 }
@@ -347,8 +347,8 @@ h1 {
 }
 
 #play-btn {
-    color: #1e7b67;
-    border: 2px solid #1e7b67;
+    color: #ff9f45;
+    border: 2px solid #ff9f45;
     background-color: transparent;
     border-radius: 50%;
     position: fixed;
@@ -359,7 +359,7 @@ h1 {
 
 /* Modal Section */
 #my-modal .modal-content {
-    border: 2px solid #1e7b67;
+    border: 2px solid #D9534F;
     border-radius: 2%;
 }
 
@@ -367,7 +367,7 @@ h1 {
     font-size: 1.5rem;
 }
 #my-modal .btn {
-    background-color: #1e7b67;
+    background-color: #D9534F;
     color: white;
 }
 
@@ -383,6 +383,7 @@ h1 {
 
     /* Praising Content Section  */
     #praising-content {
+        margin-top: 30px;
         text-align: center;
     }
     #praising-content h2 {
@@ -394,7 +395,7 @@ h1 {
 
     /* Slide Section */
     #slide .slide-content {
-        background-image: url("./assets/images/bg-sm-1.jpg");
+        background-image: url("./assets/images/bg-1-sm.jpg");
     }
     .slide-content-bg {
         width: 350px;
@@ -475,7 +476,7 @@ h1 {
     #timeline .right,
     #timeline .left {
         border: none;
-        border-left: 2px solid;
+        border-left: 2px solid #D9534F;
     }
 
     /* Count Down Section */
@@ -540,12 +541,8 @@ h1 {
     }
 }
 
-
-
 /* Responsive Work for 360px screen width */
 @media (max-width: 360px) {
-
-
     /* Slide Section */
     .slide-content-bg {
         width: 330px;

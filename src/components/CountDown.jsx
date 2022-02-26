@@ -3,7 +3,7 @@ import Duration from "duration-js";
 import Clock from "./Clock";
 
 function CountDown() {
-    let date1 = new Date("2022 2 27 11:30 AM");
+    let date1 = new Date("2022 3 3 01:00 PM");
     const [duration, setDuration] = useState({});
 
     function getDuration() {

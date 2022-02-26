@@ -1,5 +1,5 @@
 import React from "react";
-import FavoriteIcon from "@mui/icons-material/Favorite";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 
 function Navbar() {
     function handleClick() {
@@ -9,7 +9,10 @@ function Navbar() {
 
     return (
         <section id="header">
-            <nav id="navbar" className="navbar navbar-expand-lg navbar-dark ">
+            <nav
+                id="navbar"
+                className="navbar navbar-expand-lg navbar-dark fixed-top"
+            >
                 <a
                     className="navbar-brand"
                     onClick={handleClick}
@@ -18,7 +21,7 @@ function Navbar() {
                     href="#header"
                 >
                     <h1>
-                        Khalid <FavoriteIcon /> Shireen
+                        Mustafa <FavoriteBorderIcon /> Noor-e-A'ayin
                     </h1>
                 </a>
                 <button
