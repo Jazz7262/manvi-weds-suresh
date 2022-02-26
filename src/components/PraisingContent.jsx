@@ -17,7 +17,7 @@ function PraisingContent() {
 
             <h3>
                 With the blessings of all my elders and specially my Marhoon
-                Father.
+                Mother and Father.
             </h3>
         </section>
     );

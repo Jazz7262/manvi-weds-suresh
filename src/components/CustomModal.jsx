@@ -1,9 +1,12 @@
 import React from "react";
 
 function CustomModal() {
+
     function handleOpenClick(event) {
+
         event.target.setAttribute("data-toggle", "modal");
         event.target.setAttribute("data-target", "#custom-modal");
+        
     }
 
     function handleCloseClick(event) {
@@ -29,7 +32,7 @@ function CustomModal() {
                         </div>
                         <div className="modal-body">
                             <p>From:</p>
-                            <h2>Mrs. Jagirdar Bashu Sahab and Family</h2>
+                            <h2>Mr. and Mrs. B. Basheer Ahmed Sahab (Late) and Family</h2>
                         </div>
                         <div className="modal-footer">
                             <button

@@ -9,11 +9,9 @@ function Timeline() {
                 <div className="col-lg-6  left" data-aos="fade-down">
                     <h1>Shukrana</h1>
                     <h4>
-                        On Wednesday, 2<sup>nd</sup> March, 2022.
-                        <br />
-                        28<sup>th</sup> Rajjab-ul-Murajjab, 1443 Hijri.
+                        On Saturday, 26<sup>th</sup> February, 2022.
                     </h4>
-                    <h5>Time: 08:00 PM.</h5>
+                    <h5>Time: 08:00 PM</h5>
                 </div>
                 <div className="col-lg-6 right"></div>
             </div>
@@ -27,17 +25,14 @@ function Timeline() {
                 >
                     <h1>Nikaah</h1>
                     <h4>
-                        On Thursday, 3<sup>rd</sup> March, 2022.
-                        <br />
-                        29<sup>th</sup> Rajjab-ul-Murajjab, 1443 Hijri.
+                        On Sunday, 27<sup>th</sup> February, 2022.
                     </h4>
-                    <h5>Time: 01:00 PM.</h5>
+                    <h5>Time: 11:30 AM</h5>
                     <h2>Venue:</h2>
                     <h5>
-                        International Function Hall,
-                        <br />3<sup>rd</sup> road - SKD Colony,
-                        <br />
-                        Adoni.
+                        KKSR Function Hall,
+                        <br /> Near Weekly Bazar,
+                        <br /> Lingsugur.
                     </h5>
                 </div>
             </div>
@@ -50,17 +45,14 @@ function Timeline() {
                 >
                     <h1>Valima</h1>
                     <h4>
-                        On Friday, 4<sup>th</sup> March, 2022.
-                        <br />
-                        30<sup>th</sup> Rajjab-ul-Murajjab, 1443 Hijri.
+                        On Wednesday, 2<sup>nd</sup> March, 2022.
                     </h4>
-                    <h5>Time: 02:00 PM.</h5>
+                    <h5>Time: 02:00 PM</h5>
                     <h2>Venue:</h2>
                     <h5>
-                        International Function Hall,
-                        <br />3<sup>rd</sup> road - SKD Colony,
-                        <br />
-                        Adoni.
+                        Danish Function Hall,
+                        <br /> By Pass Road,
+                        <br /> Adoni.
                     </h5>
                 </div>
                 <div className="col-lg-6 right"></div>

@@ -9,19 +9,25 @@ function Couple() {
                 <div className="col-lg-5" data-aos="fade-up">
                     <img
                         className="couple-img"
-                        src="../assets/images/mustafa.jpg"
+                        src="../assets/images/khalid.jpeg"
                         alt="Groom_img"
                     />
                     <div className="info">
                         <h3>
-                            Mustafa Jagirdar, <sub>(B. Com)</sub>
+                            B. Khalid Ahmed, <sub>(B. Tech)</sub>
                         </h3>
-                        <h6>Owner of Shawarma King - Adoni, Business.</h6>
+                        <p>
+                            Maternal Grand S/O Janab B. Ahmed Khan Sahab (Late)
+                        </p>
+                        <p>
+                            Paternal Grand S/O Janab B. Hazrath Sahab (Late)
+                        </p>
+                        <p>S/O Janab B. Basheer Ahmed Sahab (Late)</p>
                     </div>
                 </div>
                 <div
                     className="col-lg-2"
-                    data-aos="zoom-out"
+                    data-aos="zoom-in "
                     data-aos-delay="300"
                 >
                     <img
@@ -38,9 +44,8 @@ function Couple() {
                     />
 
                     <div className="info">
-                        <h3>Noor-e-A'ayin</h3>
-                        <p>D/O B. Abdul Kareem (Dada Basha) Sahab.</p>
-                        <p>(R/O. Bharpet, Adoni.)</p>
+                        <h3>D. Shireen Anjum, <sub>(D. Pharma)</sub></h3>
+                        <p>D/O Al-haaj Janab D. Abdul Hameed Sahab </p>
                     </div>
                 </div>
             </div>
