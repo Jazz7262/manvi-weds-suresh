@@ -201,21 +201,24 @@ h1 {
     font-size: 3rem;
 }
 
-#timeline .col-lg-6 {
-    padding: 0px;
+#timeline .wrapper {
+    display: block;
+    border: 10px solid #1e7b67;
+    border-radius: 5px;
+}
+
+#timeline .content {
+    display: block;
+    margin: 10px;
+    padding: 3% 10%;
+    border: 2px solid #1e7b67;
+    border-radius: 5px;
 }
 
 #timeline h2 {
     font-family: "Great Vibes", cursive;
     margin-top: 20px;
     margin-bottom: 0px;
-}
-
-#timeline .left {
-    border-right: 1px solid #1e7b6786;
-}
-#timeline .right {
-    border-left: 1px solid #1e7b6786;
 }
 
 /* Count Down Section */
@@ -346,17 +349,44 @@ h1 {
     padding: 0px 10px;
 }
 
+/* Audio Icon */
+.swing-icon {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    animation: swing 1s both infinite;
+}
+
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    40% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    60% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    80% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+}
+
 #play-btn {
     color: #1e7b67;
     border: 2px solid #1e7b67;
     background-color: transparent;
     border-radius: 50%;
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
     padding: 5px;
 }
-
 /* Modal Section */
 #my-modal .modal-content {
     border: 2px solid #1e7b67;
@@ -375,7 +405,7 @@ h1 {
 @media (max-width: 990px) {
     /* Navbar Section */
     .navbar {
-        padding: 1% 7%;
+        padding: 2% 7%;
     }
     .navbar-brand h1 {
         font-size: 1.5rem;
@@ -394,7 +424,7 @@ h1 {
 
     /* Slide Section */
     #slide .slide-content {
-        background-image: url("./assets/images/bg-sm-1.jpg");
+        background-image: url("./assets/images/bg-1-sm.jpg");
     }
     .slide-content-bg {
         width: 350px;
@@ -469,7 +499,6 @@ h1 {
         font-size: 0.8rem;
     }
     #timeline h2 {
-        font-family: "Roboto Slab", serif;
         font-size: 1rem;
     }
     #timeline .right,

@@ -32,7 +32,7 @@ function CustomModal() {
                         </div>
                         <div className="modal-body">
                             <p>From:</p>
-                            <h2>Mr. and Mrs. B. Basheer Ahmed Sahab (Late) and Family</h2>
+                            <h2>Mrs. and Mr. Karre Lakshmanna <br />and Family</h2>
                         </div>
                         <div className="modal-footer">
                             <button

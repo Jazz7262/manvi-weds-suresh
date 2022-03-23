@@ -10,7 +10,7 @@ function Slide() {
                             <h5>WE ARE GETTING MARRIED</h5>
                             <h2>Save Our Date</h2>
                             <p id="guest-ref" className="date">
-                                27<sup>th</sup> February, 2022
+                                06<sup>th</sup> April, 2022
                             </p>
                         </div>
                     </div>

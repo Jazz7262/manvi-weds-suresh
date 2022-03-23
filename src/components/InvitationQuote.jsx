@@ -8,7 +8,7 @@ function InvitationQuote() {
                 <h3>
                     Solicit your gracious presecnce with Family and Friends on
                     the auspicous occasion of the Wedding Cermony of our
-                    youngest son.
+                    youngest daughter.
                 </h3>
             </div>
         </section>

@@ -1,13 +1,16 @@
 import React from "react";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import AccountBoxIcon from "@mui/icons-material/AccountBox";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faHackerrank,
+    faGithub,
+    faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 function DeveloperInfo() {
     return (
         <section id="developer-info">
             <div data-aos="fade" data-aos-delay="100">
-                <h4>Want your own Card on the Internet, Contact</h4>
+                <h4>Want your own Card on the Internet, Contact:</h4>
                 <a href="https://ziauddinziya07.github.io">
                     <h1>Ziauddin Ziya</h1>
                 </a>
@@ -19,19 +22,19 @@ function DeveloperInfo() {
                         href="https://ziauddinziya07.github.io"
                         className="icon-link"
                     >
-                        <GitHubIcon />
+                        <FontAwesomeIcon icon={faGithub} size="xl" />
                     </a>
                     <a
                         href="https://www.linkedin.in/in/ziauddinziya"
                         className="icon-link"
                     >
-                        <LinkedInIcon />
+                        <FontAwesomeIcon icon={faLinkedin} size="xl" />
                     </a>
                     <a
                         href="https://www.hackerrank.com/ziauddinziya07?hr_r=1"
                         className="icon-link"
                     >
-                        <AccountBoxIcon />
+                        <FontAwesomeIcon icon={faHackerrank} size="xl" />
                     </a>
                 </div>
             </div>

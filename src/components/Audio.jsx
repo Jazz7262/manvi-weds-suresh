@@ -16,13 +16,16 @@ function Audio() {
         <>
             <audio id="audio" loop>
                 <source
-                    src="../assets/audio-files/instrumental-flute.mp3"
+                    src="../assets/audio-files/bg-music.mp3"
                     type="audio/mpeg"
                 />
             </audio>
-            <button id="play-btn" onClick={handleClick}>
-                {isPlaying ? <MusicOffIcon /> : <MusicNoteIcon />}
-            </button>
+
+            <div className="swing-icon">
+                <button id="play-btn" onClick={handleClick}>
+                    {isPlaying ? <MusicOffIcon /> : <MusicNoteIcon />}
+                </button>
+            </div>
         </>
     );
 }

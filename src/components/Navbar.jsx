@@ -1,5 +1,6 @@
 import React from "react";
-import FavoriteIcon from "@mui/icons-material/Favorite";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
     function handleClick() {
@@ -18,7 +19,8 @@ function Navbar() {
                     href="#header"
                 >
                     <h1>
-                        Khalid <FavoriteIcon /> Shireen
+                        Manvi {"  "}
+                        <FontAwesomeIcon icon={faHeart} /> Suresh
                     </h1>
                 </a>
                 <button

@@ -9,22 +9,17 @@ function Couple() {
                 <div className="col-lg-5" data-aos="fade-up">
                     <img
                         className="couple-img"
-                        src="../assets/images/khalid.jpeg"
-                        alt="Groom_img"
+                        src="../assets/images/bride.png"
+                        alt="Bride_img"
                     />
+
                     <div className="info">
-                        <h3>
-                            B. Khalid Ahmed, <sub>(B. Tech)</sub>
-                        </h3>
-                        <p>
-                            Maternal Grand S/O Janab B. Ahmed Khan Sahab (Late)
-                        </p>
-                        <p>
-                            Paternal Grand S/O Janab B. Hazrath Sahab (Late)
-                        </p>
-                        <p>S/O Janab B. Basheer Ahmed Sahab (Late)</p>
+                        <h3>Karre Manvi Sree</h3>
+
+                        <h5>S/O Mr. Karre Lakshmanna & Mrs. Karre Leelavati</h5>
                     </div>
                 </div>
+
                 <div
                     className="col-lg-2"
                     data-aos="zoom-in "
@@ -36,16 +31,17 @@ function Couple() {
                         alt="heart_img"
                     />
                 </div>
+
                 <div className="col-lg-5" data-aos="fade-up">
                     <img
                         className="couple-img"
-                        src="../assets/images/hijaab-girl.png"
-                        alt="Bride_img"
+                        src="../assets/images/groom.jpg"
+                        alt="Groom_img"
                     />
-
                     <div className="info">
-                        <h3>D. Shireen Anjum, <sub>(D. Pharma)</sub></h3>
-                        <p>D/O Al-haaj Janab D. Abdul Hameed Sahab </p>
+                        <h3>Saya Suresh</h3>
+
+                        <h5>S/O Mr. Saya Venkatesh & Mrs. Saya Sahnti </h5>
                     </div>
                 </div>
             </div>
