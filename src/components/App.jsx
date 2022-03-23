@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Compliments from "./Compliments";
 import CountDown from "./CountDown";
 import Couple from "./Couple";
 import DeveloperInfo from "./DeveloperInfo";
-import Guest from "./Guest";
+// import Guest from "./Guest";
 import InvitationQuote from "./InvitationQuote.jsx";
 import InviteNote from "./InviteNote";
 import Navbar from "./Navbar";
