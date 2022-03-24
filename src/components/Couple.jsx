@@ -16,7 +16,7 @@ function Couple() {
                     <div className="info">
                         <h3>Karre Manvi Sree</h3>
 
-                        <h5>S/O Mr. Karre Lakshmanna & Mrs. Karre Leelavati</h5>
+                        <h5>D/O Mr. Karre Lakshmanna & Mrs. Karre Leelavati</h5>
                     </div>
                 </div>
 
